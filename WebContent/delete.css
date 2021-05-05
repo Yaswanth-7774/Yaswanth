@@ -1,0 +1,8 @@
+@charset "ISO-8859-1";
+body
+{
+	background-image:url('delete.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+}

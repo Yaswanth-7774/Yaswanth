@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>MODIFY DEPARTMENT</title>
+<link rel="stylesheet" href="modify.css">
+</head>
+<body>
+	<H1 align="center"> Modify Department </H1>
+	<form action="departmentservlet.jsp">
+	<table border=1 align="center" name="moddept">
+		<tr><td>Enter NEW department Name</td><td> <input type=text name=v_dname></td></tr> <br>
+		<tr><td>Enter NEW department location </td><td><input type=text name=v_loc> </td></tr><br>
+		<tr><td>For department Number </td><td><input type=number name=v_deptno> </td></tr><br>
+		<!--  <tr><td colspan="2" align="center"><input type=submit name=submit value="Modify Dept"></td></tr>-->
+		 <tr><td align="center"><form action="welcome.html"><input type="submit" name="home" value="Main Menu" ></form></td><td align="center"><form action="departmentservlet.jsp"></form><input type=submit name=submit value="Modify Dept"></form></td></tr>	
+	</table>
+	</form>
+</body>
+</html>
